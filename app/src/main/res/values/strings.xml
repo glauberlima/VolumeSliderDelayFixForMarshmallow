@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Volume Slider Delay Fix for Marshmallow</string>
+    <string name="app_description">Fixes volume slider dialog closing delay</string>
+</resources>
