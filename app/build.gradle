@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.2"
+    buildToolsVersion '23.0.3'
     defaultConfig {
         applicationId "com.glauber.android.xposed.volumesliderdelayfix"
         minSdkVersion 23
@@ -13,7 +13,6 @@ android {
     }
     buildTypes {
         release {
-            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -21,6 +20,10 @@ android {
     }
 }
 
+repositories {
+    jcenter();
+}
+
 dependencies {
-    provided files('libs/XposedBridgeApi-20150213.jar')
+    provided 'de.robv.android.xposed:api:81'
 }
