@@ -14,5 +14,3 @@ gradle/
 build/
 local.properties
 *.jks
-gradlew
-gradlew.bat
