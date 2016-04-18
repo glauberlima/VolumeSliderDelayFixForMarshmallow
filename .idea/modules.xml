@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/VolumeSliderDelayFixForMarshmallow.iml" filepath="$PROJECT_DIR$/VolumeSliderDelayFixForMarshmallow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VolumeSliderDelayFixforMarshmallow.iml" filepath="$PROJECT_DIR$/VolumeSliderDelayFixforMarshmallow.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
