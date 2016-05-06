@@ -7,3 +7,5 @@ android:
     - android-23
 before_install:
   - chmod +x gradlew
+after_test:
+  - bash <(curl -s https://codecov.io/bash)
